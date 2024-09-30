@@ -28,7 +28,7 @@ function App() {
       <div className="text-7xl tracking-wide">for your devnet Wallet</div>
         
   </p>
-<ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
+<ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/nddfDr3rXrtWsgsjtnzAjroHyvsQHUE4"}>
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
           <div className="flex gap-4 mt-10 justify-around">
