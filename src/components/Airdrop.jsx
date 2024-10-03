@@ -26,7 +26,7 @@ const Airdrop = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4 mt-8">
+      <div className="flex flex-col gap-4 mt-10">
         <input
           type="number"  // Input type is number
           placeholder="Airdrop SOL"

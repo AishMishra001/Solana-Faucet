@@ -22,12 +22,15 @@ function App() {
     duration: 0.8,
     ease: "easeInOut",
   }}
-  className="mt-10 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+  className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
 >
 
-  <p className="marcellus-regular">
-      <div className="text-7xl text-slate-300">Solana Airdrop  </div>
-      <div className="text-7xl tracking-wide">for your devnet Wallet</div>
+  <p className="marcellus-regular pt-28">
+    <div className="flex-col sm:flex">
+      <img src="https://cryptologos.cc/logos/solana-sol-logo.png?v=035" className="h-10 w-8 sm:h-16 sm:w-14 pt-2 mr-4 ml-40 sm:ml-28"/>
+      <div className="text-md sm:text-7xl text-slate-300">Solana Airdrop  </div>
+    </div>
+      <div className="text-md sm:text-7xl tracking-wide">for your devnet Wallet</div>
         
   </p>
 <ConnectionProvider endpoint={SOLANA_RPC_URL}>
@@ -42,7 +45,7 @@ function App() {
           </WalletModalProvider>
         </WalletProvider>
         </ConnectionProvider> 
-        <div className="text-white text-4xl marcellus-regular">
+        <div className="text-gray-300 text-5xl marcellus-regular">
   Solana-Faucet
 </div>
 <div className="text-2xl pt-4">
