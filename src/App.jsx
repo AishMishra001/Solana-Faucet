@@ -26,9 +26,9 @@ function App() {
 >
 
   <p className="marcellus-regular pt-28">
-    <div className="flex-col sm:flex">
-      <img src="https://cryptologos.cc/logos/solana-sol-logo.png?v=035" className="h-10 w-8 sm:h-16 sm:w-14 pt-2 mr-4 ml-40 sm:ml-28"/>
-      <div className="text-md sm:text-7xl text-slate-300">Solana Airdrop  </div>
+    <div className="sm:flex justify-center">
+      <img src="https://cryptologos.cc/logos/solana-sol-logo.png?v=035" className="h-16 w-14 pt-2 ml-28 mr-4"/>
+      <div className="text-md sm:text-7xl text-slate-300 mr-14">Solana Airdrop  </div>
     </div>
       <div className="text-md sm:text-7xl tracking-wide">for your devnet Wallet</div>
         
